@@ -15,6 +15,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Happy Birthday Mom!",
   description: "A special birthday celebration for the best mom.",
+  openGraph: {
+    images: ["/assets/Mom/mass.png"],
+  },
 };
 
 export default function RootLayout({
